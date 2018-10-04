@@ -1,6 +1,0 @@
-package main
-
-inport "fmt,time"
-
-func main() {
-}
