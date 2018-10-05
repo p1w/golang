@@ -1,0 +1,16 @@
+#application is manadatory
+application: geowebgap
+
+#version is manadatory
+version: 1-0
+
+#runtime is manadatory
+runtime: go
+
+#api version is manadatory
+api_version: go1
+
+#handlers is manadatory
+handlers:
+  - url: /.*
+    script:_go_app
